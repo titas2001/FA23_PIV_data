@@ -5,13 +5,13 @@ Here you can find 2000 temporal samples of PIV measurement data for each experim
 
 The .mat files contain: 
 
-  U - horizontal velocity.
+* U - horizontal velocity.
 
-  V - vertical velocity.
+* V - vertical velocity.
 
-  X - matrix the size of velocity matrices, where rows represent x location and all the rows contain the same information.
+* X - matrix the size of velocity matrices, where rows represent x location and all the rows contain the same information.
 
-  Y - matrix the size of velocity matrices, where columns represent y location and all the columns contain the same information.
+* Y - matrix the size of velocity matrices, where columns represent y location and all the columns contain the same information.
 
 
 The exact experimental configuration and the pre-processing steps together with some results are published in Lasickas et al. (2023). 
