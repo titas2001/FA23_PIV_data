@@ -61,5 +61,18 @@ for pp in range(NN):
     
 """
     Now you have horizontal (ui) and vertical (vi) velocity arrays, with them you can do your processing
+    For aligning the data on x-axis some shifting of data is needed:
+            downstream x for plotting: 
+                    4 mm:   xl[2:-2]-17.74+10.33+157
+                    6 mm:   xl[2:-2]-19.42+10.33+157
+                    8 mm:   xl[2:-2]-19.2+10.33+157
+                    10 mm:  xl[2:-2]-19.02+10.33+157
+                    157 mm is the distance from centre of the TH to the open end
+                    10.33 mm is the distance from the centre of TH to the 0mm mark
+            upstream x for plotting: 
+                    4 mm:   xl-10.4769
+                    6 mm:   xl-13.66
+                    8 mm:   xl-13.7797
+                    10 mm:  xl-13.0769
 """
     
